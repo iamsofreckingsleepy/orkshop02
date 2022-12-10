@@ -1,0 +1,41 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#head{
+    position: absolute;
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+}
+
+#head t-nav{
+    height: 80px;
+    background-color: blanchedalmond;
+}
+
+#head nav{
+    top: 0;
+    right: 0;
+    float: right;
+}
+
+#head button{
+    margin: 16px 16px;
+}
+
+#btn{
+    padding: 10px 30px; 
+    transition: all 0.25s ease; 
+    border: 0px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px; 
+    background-color: white; 
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.clearfix{
+    clear: both;
+}
