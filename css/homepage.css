@@ -90,26 +90,50 @@ button:hover{
     /* position: absolute; */
 }
 
+.flex-text{
+    font-size: 52px;
+    margin: 160px 0 -96px 0;
+    display: flex;
+    justify-content: center;
+}
+
 #grid-container{
     margin: 10em;
     display: grid;
     grid-template-columns: 120wh 40wh 40wh;
     grid-template-rows: 40vh 40vh;
-    grid-gap: 3em;
+    grid-gap: 4.7em;
+}
+
+#album-name{
+    text-align: center;
+    font-weight: 700;
+    margin: 16px;
 }
 
 .item {
+    margin: auto;
     border: 2px solid black;
     /* background: rgb(255, 255, 255); */
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
   
 .item1 {
     grid-row: 1/3;
 }
 
+.joji1{
+    height: auto;
+    width: 27.7vw;
+}
+
 .item2, .item3{
     grid-row: 1/2;
+}
+
+.album{
+    width: auto;
+    height: 340px;
 }
 
 .item4, .item5{
@@ -117,6 +141,7 @@ button:hover{
 }
 
 .flex-container{
+    overflow: hidden;
     margin: 0 160px;
     /* justify-content: center; */
     align-items: center;
