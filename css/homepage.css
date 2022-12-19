@@ -124,7 +124,7 @@ button:hover{
 
 .joji1{
     height: auto;
-    width: 27.7vw;
+    width: 26.95vw;
 }
 
 .item2, .item3{
@@ -155,13 +155,23 @@ button:hover{
 .flex-item1{
     background-color: black;
     width: 52.4%;
-    height: 100%;
-    padding: 20px;
+    height: 78%;
+    /* padding: 20px; */
+}
+
+.ticket{
+    display: flex;
+    margin: 32px;
+    height: 32vh;
+    width: auto;
 }
 
 .flex-item2{
-    background-color: rgb(255, 0, 0);
-    width: 24%;
-    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 69%;
     padding: 20px;
+    font-size: 24px;
+    /* text-align: center; */
+    margin-top: 5.5%;
 }
